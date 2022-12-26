@@ -15,15 +15,15 @@ body {
 }
 
 main {
-    max-width: 1440px;
-    margin: 15vh auto;
+    /* max-width: 1440px; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .qr-code {
-    width: 25%;
+    width: 350px;
     background-color: white;
     border-radius: 20px;
     font-family: 'Outfit', sans-serif;
@@ -48,13 +48,12 @@ main {
     font-weight: 700;
     font-size: 25px;
     color: hsl(218, 44%, 22%);
-    margin: 20px 0;
+    padding: 10px;
 }
 
 .qr-code p {
     font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
-    width: 80%;
-    margin-bottom: 20px;
+    padding: 15px;
 }
